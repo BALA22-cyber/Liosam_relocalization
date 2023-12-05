@@ -25,7 +25,7 @@ roslaunch lio_sam run_relocalize.launch
 rosbag play your_bag_name.bag
 ```
 
- -A video of the demonstration of the method can be found on [YouTube]()
+
  ## Notes
 
   - **Initialization:** During the initialization stage, keep the robot still. If you're replaying rosbagsplay the bag for about 0.5s, and then pause the bag until the your initialization is succeed. The initialization method requires you to give it initial guesses by hand on the the Rviz(green arrow).
